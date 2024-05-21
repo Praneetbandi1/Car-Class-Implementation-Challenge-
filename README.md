@@ -1,1 +1,2 @@
 # Car-Class-Implementation-Challenge- 
+This project used accelerate and break methods in order to test/  measure the speed of two objects, the car brands  Mercedes and BMW. The accelerate method in the car increased the speed by 10 kilometers per hour, while the break method reduced the speed by 5 kilometers per hour. 
