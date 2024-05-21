@@ -4,7 +4,15 @@ class Car {
         this.makeName=make;
         this.speedValue=speed;
     }
-    
+
+     // implementing accelerate method to increase speed by 10 km
+    accelerate() {
+        this.speedValue= this.speedValue+10;
+        console.log("Car model:"+ this.makeName);
+        console.log("New speed: " + this.speedValue);
+
+    }//END
+
 
 
 }
