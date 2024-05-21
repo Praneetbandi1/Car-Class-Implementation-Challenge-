@@ -8,7 +8,7 @@ class Car {
     accelerate() {
         this.speedValue = this.speedValue + 10;
         console.log("Car model:" + this.makeName);
-        console.log("New speed: " + this.speedValue);
+        console.log("New speed: " + this.speedValue+" km/h");
 
     }//END
 
@@ -16,7 +16,7 @@ class Car {
     brake() {
         this.speedValue = this.speedValue - 5;
         console.log("Car model:" + this.makeName);
-        console.log("Reduced speed:" + this.speedValue);
+        console.log("Reduced speed:" + this.speedValue+" km/h");
     }
 }
 // Creating and testing specific car objects
